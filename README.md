@@ -2,7 +2,7 @@
 
 A lightweight web translator built with Python and Streamlit. It detects the source language automatically, translates text across supported languages, and generates audio pronunciation for the translated result.
 
-**Live Demo:** *(Updating soon)*
+**Live Demo:** [Try smartfu translator online](https://smartfu-translator.streamlit.app)
 
 ## Key Features
 - **Automatic Language Detection:** Detects input language automatically without manual selection.
