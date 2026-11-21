@@ -1,0 +1,78 @@
+[data-testid="stHeader"] {
+    background: transparent;
+}
+
+.block-container {
+    background: rgba(245, 251, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    border-radius: 20px;
+    padding: 2rem 2.4rem 2.4rem !important;
+    margin: 2rem auto;
+    box-shadow: 0 10px 32px rgba(15, 45, 85, 0.2);
+    max-width: 1100px;
+}
+
+.block-container h1,
+.block-container h2,
+.block-container h3,
+.block-container p,
+.block-container label,
+.block-container span {
+    color: #0f2942;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 6px;
+}
+
+.app-logo {
+    width: 66px;
+    height: 66px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #2b6cb0;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(20, 60, 120, 0.22);
+}
+
+.app-name {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #103766;
+    margin: 0;
+}
+
+.app-desc {
+    font-size: 0.95rem;
+    color: #2c5282;
+    margin: 2px 0 0;
+}
+
+textarea {
+    background-color: rgba(255, 255, 255, 0.92) !important;
+    color: #0f2942 !important;
+    border: 1.5px solid #90cdf4 !important;
+    border-radius: 10px !important;
+}
+
+div.stButton > button[kind="primary"] {
+    background: linear-gradient(135deg, #1d5fa7, #2b86d6);
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 0.55rem 1rem;
+    box-shadow: 0 4px 12px rgba(29, 95, 167, 0.3);
+}
+
+div.stButton > button[kind="primary"] p {
+    color: #fff !important;
+}
+
+div.stButton > button[kind="primary"]:hover {
+    background: linear-gradient(135deg, #154a85, #1e6fb8);
+}
